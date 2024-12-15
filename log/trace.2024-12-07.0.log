@@ -1,0 +1,789 @@
+2024-12-07 21:13:45.893 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2024-12-07 21:13:45.903 INFO  com.jiawa.wiki.WikiApplication                    :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.7 on LAPTOP-TLCI2GAA with PID 9108 (D:\work\Coun-Springboot-Vue3\Coun-Vue\target\classes started by k in D:\work\Coun-Springboot-Vue3)
+2024-12-07 21:13:45.904 INFO  com.jiawa.wiki.WikiApplication                    :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2024-12-07 21:13:45.959 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-07 21:13:45.959 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-07 21:13:46.595 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-12-07 21:13:46.597 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-07 21:13:46.631 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2024-12-07 21:13:47.275 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2024-12-07 21:13:47.281 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2024-12-07 21:13:47.281 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-12-07 21:13:47.282 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2024-12-07 21:13:47.341 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-12-07 21:13:47.341 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1381 ms
+2024-12-07 21:13:47.996 INFO  org.redisson.Version                              :41   [32m                  [0;39m Redisson 3.16.5
+2024-12-07 21:13:48.280 INFO  o.r.connection.pool.MasterPubSubConnectionPool    :166  [32m                  [0;39m 1 connections initialized for 49.233.178.184/49.233.178.184:6379
+2024-12-07 21:13:48.282 INFO  org.redisson.connection.pool.PubSubConnectionPool :166  [32m                  [0;39m 1 connections initialized for 49.233.178.184/49.233.178.184:6379
+2024-12-07 21:13:48.323 INFO  org.redisson.connection.pool.MasterConnectionPool :166  [32m                  [0;39m 24 connections initialized for 49.233.178.184/49.233.178.184:6379
+2024-12-07 21:13:48.326 INFO  org.redisson.connection.pool.SlaveConnectionPool  :166  [32m                  [0;39m 24 connections initialized for 49.233.178.184/49.233.178.184:6379
+2024-12-07 21:13:48.577 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2024-12-07 21:13:48.854 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2024-12-07 21:13:48.905 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2024-12-07 21:13:48.969 WARN  io.netty.bootstrap.ServerBootstrap                :452  [32m                  [0;39m Unknown channel option 'TCP_NODELAY' for channel '[id: 0x49f1a6fd]'
+2024-12-07 21:13:49.001 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2024-12-07 21:13:49.011 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2024-12-07 21:13:49.022 INFO  com.jiawa.wiki.WikiApplication                    :61   [32m                  [0;39m Started WikiApplication in 3.511 seconds (JVM running for 5.988)
+2024-12-07 21:13:49.024 INFO  com.jiawa.wiki.WikiApplication                    :26   [32m                  [0;39m 启动成功！！
+2024-12-07 21:13:49.024 INFO  com.jiawa.wiki.WikiApplication                    :27   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2024-12-07 21:14:00.005 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246343846059970560[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:14:00.028 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m246343846059970560[0;39m HikariPool-1 - Starting...
+2024-12-07 21:14:00.409 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m246343846059970560[0;39m HikariPool-1 - Start completed.
+2024-12-07 21:14:00.415 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246343846059970560[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:14:00.433 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246343846059970560[0;39m ==> Parameters: 
+2024-12-07 21:14:00.461 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246343846059970560[0;39m <==    Updates: 5
+2024-12-07 21:14:00.462 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246343846059970560[0;39m 更新电子书下的文档数据结束，耗时：456毫秒
+2024-12-07 21:16:00.000 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246344349355479040[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:16:00.009 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246344349355479040[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:16:00.009 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246344349355479040[0;39m ==> Parameters: 
+2024-12-07 21:16:00.032 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246344349355479040[0;39m <==    Updates: 5
+2024-12-07 21:16:00.032 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246344349355479040[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 21:18:00.009 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246344852709707776[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:18:00.017 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246344852709707776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:18:00.017 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246344852709707776[0;39m ==> Parameters: 
+2024-12-07 21:18:00.035 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246344852709707776[0;39m <==    Updates: 5
+2024-12-07 21:18:00.035 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246344852709707776[0;39m 更新电子书下的文档数据结束，耗时：26毫秒
+2024-12-07 21:20:00.012 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246345356038770688[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:20:00.022 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246345356038770688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:20:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246345356038770688[0;39m ==> Parameters: 
+2024-12-07 21:20:00.045 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246345356038770688[0;39m <==    Updates: 5
+2024-12-07 21:20:00.046 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246345356038770688[0;39m 更新电子书下的文档数据结束，耗时：33毫秒
+2024-12-07 21:20:00.046 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :32   [32m246345356181377024[0;39m 生成今日电子书快照开始
+2024-12-07 21:20:00.055 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246345356181377024[0;39m ==>  Preparing: insert into ebook_snapshot(ebook_id, `date`, view_count, vote_count, view_increase, vote_increase) select t1.id, curdate(), 0, 0, 0, 0 from ebook t1 where not exists(select 1 from ebook_snapshot t2 where t1.id = t2.ebook_id and t2.`date` = curdate()); update ebook_snapshot t1, ebook t2 set t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.`date` = curdate() and t1.ebook_id = t2.id; update ebook_snapshot t1 left join (select ebook_id, view_count, vote_count from ebook_snapshot where `date` = date_sub(curdate(), interval 1 day)) t2 on t1.ebook_id = t2.ebook_id set t1.view_increase = (t1.view_count - ifnull(t2.view_count, 0)), t1.vote_increase = (t1.vote_count - ifnull(t2.vote_count, 0)) where t1.`date` = curdate();
+2024-12-07 21:20:00.056 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246345356181377024[0;39m ==> Parameters: 
+2024-12-07 21:20:00.080 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246345356181377024[0;39m <==    Updates: 8
+2024-12-07 21:20:00.082 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :35   [32m246345356181377024[0;39m 生成今日电子书快照结束，耗时：35毫秒
+2024-12-07 21:22:00.006 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246345859330084864[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:22:00.015 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246345859330084864[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:22:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246345859330084864[0;39m ==> Parameters: 
+2024-12-07 21:22:00.034 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246345859330084864[0;39m <==    Updates: 5
+2024-12-07 21:22:00.034 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246345859330084864[0;39m 更新电子书下的文档数据结束，耗时：27毫秒
+2024-12-07 21:24:00.012 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246346362671730688[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:24:00.022 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246346362671730688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:24:00.022 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246346362671730688[0;39m ==> Parameters: 
+2024-12-07 21:24:00.043 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246346362671730688[0;39m <==    Updates: 5
+2024-12-07 21:24:00.043 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246346362671730688[0;39m 更新电子书下的文档数据结束，耗时：30毫秒
+2024-12-07 21:26:00.004 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246346865954656256[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:26:00.014 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246346865954656256[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:26:00.015 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246346865954656256[0;39m ==> Parameters: 
+2024-12-07 21:26:00.037 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246346865954656256[0;39m <==    Updates: 5
+2024-12-07 21:26:00.037 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246346865954656256[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 21:28:00.013 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246347369308884992[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:28:00.022 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246347369308884992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:28:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246347369308884992[0;39m ==> Parameters: 
+2024-12-07 21:28:00.044 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246347369308884992[0;39m <==    Updates: 5
+2024-12-07 21:28:00.044 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246347369308884992[0;39m 更新电子书下的文档数据结束，耗时：30毫秒
+2024-12-07 21:30:00.004 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246347872587616256[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:30:00.013 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246347872587616256[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:30:00.013 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246347872587616256[0;39m ==> Parameters: 
+2024-12-07 21:30:00.036 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246347872587616256[0;39m <==    Updates: 5
+2024-12-07 21:30:00.036 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246347872587616256[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 21:30:55.247 INFO  com.jiawa.wiki.websocket.SocketServer             :27   [32m                  [0;39m client【C5k4aQF6rx】连接成功
+2024-12-07 21:30:55.289 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-07 21:30:55.289 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-12-07 21:30:55.290 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2024-12-07 21:30:55.360 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348104763314176[0;39m ------------- 开始 -------------
+2024-12-07 21:30:55.360 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348104763314177[0;39m ------------- 开始 -------------
+2024-12-07 21:30:55.363 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348104763314176[0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/selectBookView GET
+2024-12-07 21:30:55.363 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348104763314177[0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2024-12-07 21:30:55.364 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348104763314178[0;39m ------------- 开始 -------------
+2024-12-07 21:30:55.365 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348104763314177[0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2024-12-07 21:30:55.365 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348104763314178[0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-statistic GET
+2024-12-07 21:30:55.364 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348104763314176[0;39m 类名方法: com.jiawa.wiki.controller.EbookSnapshotController.selectBookView
+2024-12-07 21:30:55.365 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348104763314178[0;39m 类名方法: com.jiawa.wiki.controller.EbookSnapshotController.getStatistic
+2024-12-07 21:30:55.365 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348104763314176[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:30:55.365 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348104763314178[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:30:55.366 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348104763314177[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:30:55.368 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348104801062912[0;39m ------------- 开始 -------------
+2024-12-07 21:30:55.369 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348104801062912[0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-30-statistic GET
+2024-12-07 21:30:55.369 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348104801062912[0;39m 类名方法: com.jiawa.wiki.controller.EbookSnapshotController.get30Statistic
+2024-12-07 21:30:55.370 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348104801062912[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:30:55.439 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348104763314178[0;39m 请求参数: []
+2024-12-07 21:30:55.439 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348104763314176[0;39m 请求参数: []
+2024-12-07 21:30:55.439 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348104801062912[0;39m 请求参数: []
+2024-12-07 21:30:55.439 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348104763314177[0;39m 请求参数: []
+2024-12-07 21:30:55.454 DEBUG c.j.w.m.EbookSnapshotMapperCust.selectBookView    :137  [32m246348104763314176[0;39m ==>  Preparing: SELECT e.id, e.name, e.view_count, ROUND((e.view_count / t.total_view_count) * 100, 2) AS percentage FROM ebook e, (SELECT SUM(view_count) AS total_view_count FROM ebook) AS t
+2024-12-07 21:30:55.455 DEBUG c.j.w.m.EbookSnapshotMapperCust.selectBookView    :137  [32m246348104763314176[0;39m ==> Parameters: 
+2024-12-07 21:30:55.456 DEBUG c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :137  [32m246348104801062912[0;39m ==>  Preparing: select t1.`date` as `date`, sum(t1.view_increase) as viewIncrease, sum(t1.vote_increase) as voteIncrease from ebook_snapshot t1 where t1.`date` between date_sub(curdate(), interval 30 day) and date_sub(curdate(), interval 1 day) group by t1.`date` order by t1.`date` asc;
+2024-12-07 21:30:55.456 DEBUG c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :137  [32m246348104801062912[0;39m ==> Parameters: 
+2024-12-07 21:30:55.475 DEBUG c.jiawa.wiki.mapper.CategoryMapper.selectByExample:137  [32m246348104763314177[0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2024-12-07 21:30:55.475 DEBUG c.jiawa.wiki.mapper.CategoryMapper.selectByExample:137  [32m246348104763314177[0;39m ==> Parameters: 
+2024-12-07 21:30:55.481 TRACE c.j.w.m.EbookSnapshotMapperCust.selectBookView    :143  [32m246348104763314176[0;39m <==    Columns: id, name, view_count, percentage
+2024-12-07 21:30:55.481 TRACE c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :143  [32m246348104801062912[0;39m <==    Columns: date, viewIncrease, voteIncrease
+2024-12-07 21:30:55.482 TRACE c.j.w.m.EbookSnapshotMapperCust.selectBookView    :143  [32m246348104763314176[0;39m <==        Row: 1, Spring Boot 入门教程, 919, 60.10
+2024-12-07 21:30:55.482 TRACE c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :143  [32m246348104801062912[0;39m <==        Row: 2024-11-25, 1527, 69
+2024-12-07 21:30:55.484 TRACE c.j.w.m.EbookSnapshotMapperCust.selectBookView    :143  [32m246348104763314176[0;39m <==        Row: 2, Vue 入门教程, 230, 15.04
+2024-12-07 21:30:55.484 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==    Columns: id, parent, name, sort
+2024-12-07 21:30:55.484 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 100, 0, 前端开发, 100
+2024-12-07 21:30:55.484 TRACE c.j.w.m.EbookSnapshotMapperCust.selectBookView    :143  [32m246348104763314176[0;39m <==        Row: 3, Python 入门教程, 0, 0.00
+2024-12-07 21:30:55.485 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 101, 100, Vue, 101
+2024-12-07 21:30:55.484 TRACE c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :143  [32m246348104801062912[0;39m <==        Row: 2024-11-26, 0, 0
+2024-12-07 21:30:55.485 TRACE c.j.w.m.EbookSnapshotMapperCust.selectBookView    :143  [32m246348104763314176[0;39m <==        Row: 4, Mysql 入门教程, 12, 0.78
+2024-12-07 21:30:55.485 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 102, 100, HTML & CSS, 102
+2024-12-07 21:30:55.485 TRACE c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :143  [32m246348104801062912[0;39m <==        Row: 2024-11-27, 0, 0
+2024-12-07 21:30:55.485 TRACE c.j.w.m.EbookSnapshotMapperCust.selectBookView    :143  [32m246348104763314176[0;39m <==        Row: 5, Oracle 入门教程, 0, 0.00
+2024-12-07 21:30:55.486 TRACE c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :143  [32m246348104801062912[0;39m <==        Row: 2024-11-28, 0, 0
+2024-12-07 21:30:55.486 TRACE c.j.w.m.EbookSnapshotMapperCust.selectBookView    :143  [32m246348104763314176[0;39m <==        Row: 6, RocketMq实战基础, 209, 13.67
+2024-12-07 21:30:55.486 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 504, 100, JavaScript, 103
+2024-12-07 21:30:55.486 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 200, 0, Java, 200
+2024-12-07 21:30:55.487 TRACE c.j.w.m.EbookSnapshotMapperCust.selectBookView    :143  [32m246348104763314176[0;39m <==        Row: 7, JS防抖策略和节流策略, 159, 10.40
+2024-12-07 21:30:55.487 TRACE c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :143  [32m246348104801062912[0;39m <==        Row: 2024-11-29, 0, 0
+2024-12-07 21:30:55.487 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 201, 200, 基础应用, 201
+2024-12-07 21:30:55.487 TRACE c.j.w.m.EbookSnapshotMapperCust.selectBookView    :143  [32m246348104763314176[0;39m <==        Row: 52447510677032960, Redis入门到实战, 0, 0.00
+2024-12-07 21:30:55.487 TRACE c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :143  [32m246348104801062912[0;39m <==        Row: 2024-12-01, 1529, 70
+2024-12-07 21:30:55.487 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 202, 200, 框架应用, 202
+2024-12-07 21:30:55.488 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 300, 0, Python, 300
+2024-12-07 21:30:55.488 DEBUG c.j.w.m.EbookSnapshotMapperCust.selectBookView    :137  [32m246348104763314176[0;39m <==      Total: 8
+2024-12-07 21:30:55.488 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 301, 300, 基础应用, 301
+2024-12-07 21:30:55.489 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2024-12-07 21:30:55.489 DEBUG c.j.w.m.EbookSnapshotMapperCust.get30Statistic    :137  [32m246348104801062912[0;39m <==      Total: 6
+2024-12-07 21:30:55.489 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 400, 0, 数据库, 400
+2024-12-07 21:30:55.490 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 401, 400, MySQL, 401
+2024-12-07 21:30:55.490 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 52447426497351681, 400, Redis, 402
+2024-12-07 21:30:55.490 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 500, 0, 其它, 500
+2024-12-07 21:30:55.490 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 501, 500, 服务器, 501
+2024-12-07 21:30:55.491 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 502, 500, 开发工具, 502
+2024-12-07 21:30:55.566 TRACE c.jiawa.wiki.mapper.CategoryMapper.selectByExample:143  [32m246348104763314177[0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2024-12-07 21:30:55.566 DEBUG c.jiawa.wiki.mapper.CategoryMapper.selectByExample:137  [32m246348104763314177[0;39m <==      Total: 17
+2024-12-07 21:30:55.588 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348104763314177[0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":504,"name":"JavaScript","parent":100,"sort":103},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":52447426497351681,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2024-12-07 21:30:55.588 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348104763314177[0;39m ------------- 结束 耗时：229 ms -------------
+2024-12-07 21:30:55.588 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348104801062912[0;39m 返回结果: {"content":[{"date":1732464000000,"viewCount":0,"viewIncrease":1527,"voteCount":0,"voteIncrease":69},{"date":1732550400000,"viewCount":0,"viewIncrease":0,"voteCount":0,"voteIncrease":0},{"date":1732636800000,"viewCount":0,"viewIncrease":0,"voteCount":0,"voteIncrease":0},{"date":1732723200000,"viewCount":0,"viewIncrease":0,"voteCount":0,"voteIncrease":0},{"date":1732809600000,"viewCount":0,"viewIncrease":0,"voteCount":0,"voteIncrease":0},{"date":1732982400000,"viewCount":0,"viewIncrease":1529,"voteCount":0,"voteIncrease":70}],"success":true}
+2024-12-07 21:30:55.588 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348104801062912[0;39m ------------- 结束 耗时：220 ms -------------
+2024-12-07 21:30:55.594 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348104763314176[0;39m 返回结果: {"content":[{"id":1,"name":"Spring Boot 入门教程","percentage":60.1,"viewCount":919},{"id":2,"name":"Vue 入门教程","percentage":15.04,"viewCount":230},{"id":3,"name":"Python 入门教程","percentage":0.0,"viewCount":0},{"id":4,"name":"Mysql 入门教程","percentage":0.78,"viewCount":12},{"id":5,"name":"Oracle 入门教程","percentage":0.0,"viewCount":0},{"id":6,"name":"RocketMq实战基础","percentage":13.67,"viewCount":209},{"id":7,"name":"JS防抖策略和节流策略","percentage":10.4,"viewCount":159},{"id":52447510677032960,"name":"Redis入门到实战","percentage":0.0,"viewCount":0}],"success":true}
+2024-12-07 21:30:55.595 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348104763314176[0;39m ------------- 结束 耗时：236 ms -------------
+2024-12-07 21:30:56.344 INFO  com.jiawa.wiki.service.EbookSnapshotService       :39   [32m246348104763314178[0;39m 访问Redis
+2024-12-07 21:30:56.355 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.getStatistic :137  [32m246348104763314178[0;39m ==>  Preparing: select t1.`date` as `date`, sum(t1.view_count) as viewCount, sum(t1.vote_count) as voteCount, sum(t1.view_increase) as viewIncrease, sum(t1.vote_increase) as voteIncrease from ebook_snapshot t1 where t1.`date` >= date_sub(curdate(), interval 1 day) group by t1.`date` order by t1.`date` asc;
+2024-12-07 21:30:56.356 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.getStatistic :137  [32m246348104763314178[0;39m ==> Parameters: 
+2024-12-07 21:30:56.370 TRACE c.j.w.mapper.EbookSnapshotMapperCust.getStatistic :143  [32m246348104763314178[0;39m <==    Columns: date, viewCount, voteCount, viewIncrease, voteIncrease
+2024-12-07 21:30:56.371 TRACE c.j.w.mapper.EbookSnapshotMapperCust.getStatistic :143  [32m246348104763314178[0;39m <==        Row: 2024-12-07, 1529, 70, 1529, 70
+2024-12-07 21:30:56.372 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.getStatistic :137  [32m246348104763314178[0;39m <==      Total: 1
+2024-12-07 21:30:56.395 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348104763314178[0;39m 返回结果: {"content":[{"date":1733500800000,"viewCount":1529,"viewIncrease":1529,"voteCount":70,"voteIncrease":70}],"success":true}
+2024-12-07 21:30:56.396 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348104763314178[0;39m ------------- 结束 耗时：1037 ms -------------
+2024-12-07 21:31:00.441 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :32   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2024-12-07 21:31:00.444 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :68   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：1 ms -------------
+2024-12-07 21:31:00.444 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :75   [32m                  [0;39m LogInterceptor 结束
+2024-12-07 21:31:00.449 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :32   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2024-12-07 21:31:00.450 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :43   [32m                  [0;39m 接口登录拦截：，path：http://127.0.0.1:8880/user/logout/244068003430404096
+2024-12-07 21:31:00.450 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :47   [32m                  [0;39m 登录校验开始，token：244068003430404096
+2024-12-07 21:31:00.456 WARN  com.jiawa.wiki.interceptor.LoginInterceptor       :55   [32m                  [0;39m token无效，请求被拦截
+2024-12-07 21:31:02.190 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348133414604800[0;39m ------------- 开始 -------------
+2024-12-07 21:31:02.190 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348133414604800[0;39m 请求地址: http://127.0.0.1:8880/user/login POST
+2024-12-07 21:31:02.190 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348133414604800[0;39m 类名方法: com.jiawa.wiki.controller.UserController.login
+2024-12-07 21:31:02.190 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348133414604800[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:31:02.198 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348133414604800[0;39m 请求参数: [{"loginName":"test"}]
+2024-12-07 21:31:02.232 DEBUG com.jiawa.wiki.mapper.UserMapper.selectByExample  :137  [32m246348133414604800[0;39m ==>  Preparing: select id, login_name, `name`, `password`, avatar from user WHERE ( login_name = ? )
+2024-12-07 21:31:02.238 DEBUG com.jiawa.wiki.mapper.UserMapper.selectByExample  :137  [32m246348133414604800[0;39m ==> Parameters: test(String)
+2024-12-07 21:31:02.246 TRACE com.jiawa.wiki.mapper.UserMapper.selectByExample  :143  [32m246348133414604800[0;39m <==    Columns: id, login_name, name, password, avatar
+2024-12-07 21:31:02.246 TRACE com.jiawa.wiki.mapper.UserMapper.selectByExample  :143  [32m246348133414604800[0;39m <==        Row: 1, test, test, e70e2222a9d67c4f2eae107533359aa4, http://127.0.0.1:8880/file/image-20220202121318183-16437751995162.png
+2024-12-07 21:31:02.246 DEBUG com.jiawa.wiki.mapper.UserMapper.selectByExample  :137  [32m246348133414604800[0;39m <==      Total: 1
+2024-12-07 21:31:02.255 INFO  com.jiawa.wiki.controller.UserController          :99   [32m246348133414604800[0;39m 生成单点登录token：246348133687234560，并放入redis中
+2024-12-07 21:31:02.267 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348133414604800[0;39m 返回结果: {"content":{"id":1,"loginName":"test","name":"test","token":"246348133687234560"},"success":true}
+2024-12-07 21:31:02.267 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348133414604800[0;39m ------------- 结束 耗时：77 ms -------------
+2024-12-07 21:32:00.014 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246348375946039296[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:32:00.022 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246348375946039296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:32:00.022 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246348375946039296[0;39m ==> Parameters: 
+2024-12-07 21:32:00.050 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246348375946039296[0;39m <==    Updates: 5
+2024-12-07 21:32:00.050 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246348375946039296[0;39m 更新电子书下的文档数据结束，耗时：36毫秒
+2024-12-07 21:33:10.465 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348671438950400[0;39m ------------- 开始 -------------
+2024-12-07 21:33:10.470 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348671438950400[0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-12-07 21:33:10.470 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348671438950400[0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2024-12-07 21:33:10.470 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348671438950400[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:10.470 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348671438950400[0;39m 请求参数: [{"categoryId2":102,"page":1,"size":1000}]
+2024-12-07 21:33:10.530 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m246348671438950400[0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (category2_id = ?)
+2024-12-07 21:33:10.530 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m246348671438950400[0;39m ==> Parameters: 102(Long)
+2024-12-07 21:33:10.543 TRACE c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m246348671438950400[0;39m <==    Columns: count(0)
+2024-12-07 21:33:10.543 TRACE c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m246348671438950400[0;39m <==        Row: 0
+2024-12-07 21:33:10.543 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m246348671438950400[0;39m <==      Total: 1
+2024-12-07 21:33:10.543 INFO  com.jiawa.wiki.service.EbookService               :48   [32m246348671438950400[0;39m 总行数：0
+2024-12-07 21:33:10.543 INFO  com.jiawa.wiki.service.EbookService               :49   [32m246348671438950400[0;39m 总页数：0
+2024-12-07 21:33:10.547 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348671438950400[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-12-07 21:33:10.547 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348671438950400[0;39m ------------- 结束 耗时：82 ms -------------
+2024-12-07 21:33:11.100 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348674102333440[0;39m ------------- 开始 -------------
+2024-12-07 21:33:11.100 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348674102333440[0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-12-07 21:33:11.100 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348674102333440[0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2024-12-07 21:33:11.103 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348674102333440[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:11.103 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348674102333440[0;39m 请求参数: [{"categoryId2":504,"page":1,"size":1000}]
+2024-12-07 21:33:11.113 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m246348674102333440[0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (category2_id = ?)
+2024-12-07 21:33:11.113 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m246348674102333440[0;39m ==> Parameters: 504(Long)
+2024-12-07 21:33:11.124 TRACE c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m246348674102333440[0;39m <==    Columns: count(0)
+2024-12-07 21:33:11.124 TRACE c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m246348674102333440[0;39m <==        Row: 1
+2024-12-07 21:33:11.124 DEBUG c.j.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m246348674102333440[0;39m <==      Total: 1
+2024-12-07 21:33:11.126 DEBUG com.jiawa.wiki.mapper.EbookMapper.selectByExample :137  [32m246348674102333440[0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( category2_id = ? ) LIMIT ?
+2024-12-07 21:33:11.126 DEBUG com.jiawa.wiki.mapper.EbookMapper.selectByExample :137  [32m246348674102333440[0;39m ==> Parameters: 504(Long), 1000(Integer)
+2024-12-07 21:33:11.133 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m246348674102333440[0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-12-07 21:33:11.133 TRACE com.jiawa.wiki.mapper.EbookMapper.selectByExample :143  [32m246348674102333440[0;39m <==        Row: 7, JS防抖策略和节流策略, 100, 504, JS实战, http://127.0.0.1:8880/file/image-20220202111056036.png, 5, 159, 19
+2024-12-07 21:33:11.136 DEBUG com.jiawa.wiki.mapper.EbookMapper.selectByExample :137  [32m246348674102333440[0;39m <==      Total: 1
+2024-12-07 21:33:11.136 INFO  com.jiawa.wiki.service.EbookService               :48   [32m246348674102333440[0;39m 总行数：1
+2024-12-07 21:33:11.137 INFO  com.jiawa.wiki.service.EbookService               :49   [32m246348674102333440[0;39m 总页数：1
+2024-12-07 21:33:11.144 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348674102333440[0;39m 返回结果: {"content":{"list":[{"category1Id":100,"category2Id":504,"cover":"http://127.0.0.1:8880/file/image-20220202111056036.png","description":"JS实战","docCount":5,"id":7,"name":"JS防抖策略和节流策略","viewCount":159,"voteCount":19}],"total":1},"success":true}
+2024-12-07 21:33:11.144 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348674102333440[0;39m ------------- 结束 耗时：44 ms -------------
+2024-12-07 21:33:11.164 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :32   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2024-12-07 21:33:11.164 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :43   [32m                  [0;39m 接口登录拦截：，path：http://127.0.0.1:8880/error
+2024-12-07 21:33:11.164 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :47   [32m                  [0;39m 登录校验开始，token：null
+2024-12-07 21:33:11.164 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :49   [32m                  [0;39m token为空，请求被拦截
+2024-12-07 21:33:11.948 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :32   [32m                  [0;39m ------------- LoginInterceptor 开始 -------------
+2024-12-07 21:33:11.949 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :68   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：0 ms -------------
+2024-12-07 21:33:11.949 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :75   [32m                  [0;39m LogInterceptor 结束
+2024-12-07 21:33:11.953 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :32   [32m246348104763314176[0;39m ------------- LoginInterceptor 开始 -------------
+2024-12-07 21:33:11.953 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :43   [32m246348104763314176[0;39m 接口登录拦截：，path：http://127.0.0.1:8880/doc/obrecord
+2024-12-07 21:33:11.954 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :47   [32m246348104763314176[0;39m 登录校验开始，token：246348133687234560
+2024-12-07 21:33:11.954 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348677684269056[0;39m ------------- 开始 -------------
+2024-12-07 21:33:11.954 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348677684269056[0;39m 请求地址: http://127.0.0.1:8880/doc/all/7 GET
+2024-12-07 21:33:11.955 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348677684269056[0;39m 类名方法: com.jiawa.wiki.controller.DocController.all
+2024-12-07 21:33:11.955 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348677684269056[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:11.955 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348677684269056[0;39m 请求参数: [7]
+2024-12-07 21:33:11.956 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348677692657664[0;39m ------------- 开始 -------------
+2024-12-07 21:33:11.956 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348677692657664[0;39m 请求地址: http://127.0.0.1:8880/doc/comments/7 GET
+2024-12-07 21:33:11.956 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348677692657664[0;39m 类名方法: com.jiawa.wiki.controller.DocController.CommentResp
+2024-12-07 21:33:11.957 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348677692657664[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:11.957 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348677692657664[0;39m 请求参数: [7]
+2024-12-07 21:33:11.966 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :59   [32m246348104763314176[0;39m 已登录：{"id":1,"loginName":"test","name":"test","token":"246348133687234560"}
+2024-12-07 21:33:11.967 DEBUG c.j.wiki.mapper.CommentMapper.selectCommentResp   :137  [32m246348677692657664[0;39m ==>  Preparing: SELECT comment.*, user.avatar, user.name FROM comment INNER JOIN user ON comment.user_id = user.id WHERE comment.ebook_id = ?
+2024-12-07 21:33:11.967 DEBUG c.j.wiki.mapper.CommentMapper.selectCommentResp   :137  [32m246348677692657664[0;39m ==> Parameters: 7(Long)
+2024-12-07 21:33:11.972 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348677759766528[0;39m ------------- 开始 -------------
+2024-12-07 21:33:11.973 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348677759766528[0;39m 请求地址: http://127.0.0.1:8880/doc/obrecord GET
+2024-12-07 21:33:11.973 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348677759766528[0;39m 类名方法: com.jiawa.wiki.controller.DocController.obrecord
+2024-12-07 21:33:11.973 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348677759766528[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:11.973 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348677759766528[0;39m 请求参数: [1,7]
+2024-12-07 21:33:11.977 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348677684269056[0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc WHERE ( ebook_id = ? ) order by sort asc
+2024-12-07 21:33:11.978 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348677684269056[0;39m ==> Parameters: 7(Long)
+2024-12-07 21:33:11.979 DEBUG c.j.wiki.mapper.CommentMapper.selectCommentResp   :137  [32m246348677692657664[0;39m <==      Total: 0
+2024-12-07 21:33:11.982 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348677692657664[0;39m 返回结果: {"content":[],"success":true}
+2024-12-07 21:33:11.982 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348677692657664[0;39m ------------- 结束 耗时：26 ms -------------
+2024-12-07 21:33:11.993 DEBUG c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:137  [32m246348677759766528[0;39m ==>  Preparing: select * from read_progress where user_id = ? and ebook_id = ?
+2024-12-07 21:33:11.993 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348677684269056[0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2024-12-07 21:33:11.993 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348677684269056[0;39m <==        Row: 41260598448754688, 7, 0, JS的优化策略, 1, 74, 5
+2024-12-07 21:33:11.993 DEBUG c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:137  [32m246348677759766528[0;39m ==> Parameters: 1(Long), 7(Long)
+2024-12-07 21:33:11.993 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348677684269056[0;39m <==        Row: 41261844488392704, 7, 41260702874341376, JS实战防抖策略基础, 1, 36, 6
+2024-12-07 21:33:11.994 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348677684269056[0;39m <==        Row: 41265633660375040, 7, 41260840728530944, JS节流策略实战, 1, 21, 3
+2024-12-07 21:33:11.994 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348677684269056[0;39m <==        Row: 41260702874341376, 7, 0, JS的防抖策略, 2, 14, 2
+2024-12-07 21:33:11.994 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348677684269056[0;39m <==        Row: 41260840728530944, 7, 0, JS的节流策略, 3, 14, 3
+2024-12-07 21:33:11.995 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348677684269056[0;39m <==      Total: 5
+2024-12-07 21:33:12.004 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348677684269056[0;39m 返回结果: {"content":[{"ebookId":7,"id":41260598448754688,"name":"JS的优化策略","parent":0,"sort":1,"viewCount":74,"voteCount":5},{"ebookId":7,"id":41261844488392704,"name":"JS实战防抖策略基础","parent":41260702874341376,"sort":1,"viewCount":36,"voteCount":6},{"ebookId":7,"id":41265633660375040,"name":"JS节流策略实战","parent":41260840728530944,"sort":1,"viewCount":21,"voteCount":3},{"ebookId":7,"id":41260702874341376,"name":"JS的防抖策略","parent":0,"sort":2,"viewCount":14,"voteCount":2},{"ebookId":7,"id":41260840728530944,"name":"JS的节流策略","parent":0,"sort":3,"viewCount":14,"voteCount":3}],"success":true}
+2024-12-07 21:33:12.004 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348677684269056[0;39m ------------- 结束 耗时：50 ms -------------
+2024-12-07 21:33:12.006 TRACE c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:143  [32m246348677759766528[0;39m <==    Columns: id, user_id, ebook_id, doc_id
+2024-12-07 21:33:12.006 TRACE c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:143  [32m246348677759766528[0;39m <==        Row: 5, 1, 7, 41265633660375040
+2024-12-07 21:33:12.006 DEBUG c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:137  [32m246348677759766528[0;39m <==      Total: 1
+2024-12-07 21:33:12.018 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348677759766528[0;39m 返回结果: {"content":{"docId":41265633660375040,"ebookId":7,"id":5,"userId":1},"success":true}
+2024-12-07 21:33:12.018 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348677759766528[0;39m ------------- 结束 耗时：46 ms -------------
+2024-12-07 21:33:12.020 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :68   [32m246348677759766528[0;39m ------------- LoginInterceptor 结束 耗时：67 ms -------------
+2024-12-07 21:33:12.020 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :75   [32m246348677759766528[0;39m LogInterceptor 结束
+2024-12-07 21:33:12.035 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348678024007680[0;39m ------------- 开始 -------------
+2024-12-07 21:33:12.035 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348678024007681[0;39m ------------- 开始 -------------
+2024-12-07 21:33:12.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348678024007680[0;39m 请求地址: http://127.0.0.1:8880/doc/all/7 GET
+2024-12-07 21:33:12.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348678024007681[0;39m 请求地址: http://127.0.0.1:8880/doc/find-content/41260598448754688 GET
+2024-12-07 21:33:12.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348678024007680[0;39m 类名方法: com.jiawa.wiki.controller.DocController.all
+2024-12-07 21:33:12.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348678024007681[0;39m 类名方法: com.jiawa.wiki.controller.DocController.findContent
+2024-12-07 21:33:12.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348678024007680[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:12.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348678024007680[0;39m 请求参数: [7]
+2024-12-07 21:33:12.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348678024007681[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:12.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348678024007681[0;39m 请求参数: [41260598448754688]
+2024-12-07 21:33:12.038 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348678024007681[0;39m ==>  Preparing: select id , content from content where id = ?
+2024-12-07 21:33:12.038 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348678024007680[0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc WHERE ( ebook_id = ? ) order by sort asc
+2024-12-07 21:33:12.038 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348678024007681[0;39m ==> Parameters: 41260598448754688(Long)
+2024-12-07 21:33:12.038 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348678024007680[0;39m ==> Parameters: 7(Long)
+2024-12-07 21:33:12.049 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348678024007680[0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2024-12-07 21:33:12.049 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348678024007680[0;39m <==        Row: 41260598448754688, 7, 0, JS的优化策略, 1, 74, 5
+2024-12-07 21:33:12.049 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348678024007680[0;39m <==        Row: 41261844488392704, 7, 41260702874341376, JS实战防抖策略基础, 1, 36, 6
+2024-12-07 21:33:12.050 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348678024007680[0;39m <==        Row: 41265633660375040, 7, 41260840728530944, JS节流策略实战, 1, 21, 3
+2024-12-07 21:33:12.050 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348678024007680[0;39m <==        Row: 41260702874341376, 7, 0, JS的防抖策略, 2, 14, 2
+2024-12-07 21:33:12.050 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348678024007680[0;39m <==        Row: 41260840728530944, 7, 0, JS的节流策略, 3, 14, 3
+2024-12-07 21:33:12.050 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348678024007680[0;39m <==      Total: 5
+2024-12-07 21:33:12.050 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348678024007681[0;39m <==    Columns: id, content
+2024-12-07 21:33:12.051 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348678024007681[0;39m <==        Row: 41260598448754688, <<BLOB>>
+2024-12-07 21:33:12.051 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348678024007681[0;39m <==      Total: 1
+2024-12-07 21:33:12.051 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348678024007680[0;39m 返回结果: {"content":[{"ebookId":7,"id":41260598448754688,"name":"JS的优化策略","parent":0,"sort":1,"viewCount":74,"voteCount":5},{"ebookId":7,"id":41261844488392704,"name":"JS实战防抖策略基础","parent":41260702874341376,"sort":1,"viewCount":36,"voteCount":6},{"ebookId":7,"id":41265633660375040,"name":"JS节流策略实战","parent":41260840728530944,"sort":1,"viewCount":21,"voteCount":3},{"ebookId":7,"id":41260702874341376,"name":"JS的防抖策略","parent":0,"sort":2,"viewCount":14,"voteCount":2},{"ebookId":7,"id":41260840728530944,"name":"JS的节流策略","parent":0,"sort":3,"viewCount":14,"voteCount":3}],"success":true}
+2024-12-07 21:33:12.051 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348678024007680[0;39m ------------- 结束 耗时：16 ms -------------
+2024-12-07 21:33:12.053 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348678024007681[0;39m ==>  Preparing: update doc set view_count = view_count + 1 where id = ?
+2024-12-07 21:33:12.053 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348678024007681[0;39m ==> Parameters: 41260598448754688(Long)
+2024-12-07 21:33:12.067 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348678158225408[0;39m ------------- 开始 -------------
+2024-12-07 21:33:12.068 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348678158225408[0;39m 请求地址: http://127.0.0.1:8880/doc/find-content/41265633660375040 GET
+2024-12-07 21:33:12.068 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348678158225408[0;39m 类名方法: com.jiawa.wiki.controller.DocController.findContent
+2024-12-07 21:33:12.068 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348678158225408[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:12.068 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348678158225408[0;39m 请求参数: [41265633660375040]
+2024-12-07 21:33:12.068 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348678158225408[0;39m ==>  Preparing: select id , content from content where id = ?
+2024-12-07 21:33:12.068 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348678158225408[0;39m ==> Parameters: 41265633660375040(Long)
+2024-12-07 21:33:12.073 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348678024007681[0;39m <==    Updates: 1
+2024-12-07 21:33:12.073 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348678024007681[0;39m 返回结果: {"content":"<p>防抖（Debounce）和节流（Throttle）是在 JavaScript 中常见的两种优化策略，它们的主要目的是控制函数的执行频率。这两种策略在处理一些高频率事件（如滚动、输入、点击等）时非常有用，可以帮助我们避免因为频繁的函数执行而导致的性能问题。<br></p>","success":true}
+2024-12-07 21:33:12.073 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348678024007681[0;39m ------------- 结束 耗时：38 ms -------------
+2024-12-07 21:33:12.075 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348678158225408[0;39m <==    Columns: id, content
+2024-12-07 21:33:12.075 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348678158225408[0;39m <==        Row: 41265633660375040, <<BLOB>>
+2024-12-07 21:33:12.075 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348678158225408[0;39m <==      Total: 1
+2024-12-07 21:33:12.075 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348678158225408[0;39m ==>  Preparing: update doc set view_count = view_count + 1 where id = ?
+2024-12-07 21:33:12.075 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348678158225408[0;39m ==> Parameters: 41265633660375040(Long)
+2024-12-07 21:33:12.103 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348678158225408[0;39m <==    Updates: 1
+2024-12-07 21:33:12.103 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348678158225408[0;39m 返回结果: {"content":"<p>let lastCallTime;<br><br>function throttle(func, delay) {<br>    return function(...args) {<br>        const now = Date.now();<br>        if (!lastCallTime || (now - lastCallTime) &gt; delay) {<br>            lastCallTime = now;<br>            return func.apply(this, args);<br>        }<br>    }<br>}<br><br>// 使用示例：<br>const throttledFunction = throttle(() =&gt; console.log('Function Executed'), 2000);<br><br>// 然后你就可以按照正常方式调用这个被节流的函数了：<br>throttledFunction();<br>throttledFunction();<br>throttledFunction();<br>// 以上三次调用，只有第一次会被执行，后两次调用因为在2秒之内，所以不会执行<br></p>","success":true}
+2024-12-07 21:33:12.103 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348678158225408[0;39m ------------- 结束 耗时：36 ms -------------
+2024-12-07 21:33:14.562 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348688623013888[0;39m ------------- 开始 -------------
+2024-12-07 21:33:14.562 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348688623013888[0;39m 请求地址: http://127.0.0.1:8880/doc/vote/41265633660375040 GET
+2024-12-07 21:33:14.563 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348688623013888[0;39m 类名方法: com.jiawa.wiki.controller.DocController.vote
+2024-12-07 21:33:14.563 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348688623013888[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:14.563 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348688623013888[0;39m 请求参数: [41265633660375040]
+2024-12-07 21:33:14.573 INFO  com.jiawa.wiki.util.RedisUtil                     :37   [32m246348688623013888[0;39m key不存在，放入：DOC_VOTE_41265633660375040_127.0.0.1，过期 5000 秒
+2024-12-07 21:33:14.590 DEBUG c.j.wiki.mapper.DocMapperCust.increaseVoteCount   :137  [32m246348688623013888[0;39m ==>  Preparing: update doc set vote_count = vote_count + 1 where id = ?
+2024-12-07 21:33:14.591 DEBUG c.j.wiki.mapper.DocMapperCust.increaseVoteCount   :137  [32m246348688623013888[0;39m ==> Parameters: 41265633660375040(Long)
+2024-12-07 21:33:14.610 DEBUG c.j.wiki.mapper.DocMapperCust.increaseVoteCount   :137  [32m246348688623013888[0;39m <==    Updates: 1
+2024-12-07 21:33:14.612 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:137  [32m246348688623013888[0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc where id = ?
+2024-12-07 21:33:14.612 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:137  [32m246348688623013888[0;39m ==> Parameters: 41265633660375040(Long)
+2024-12-07 21:33:14.618 TRACE com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:143  [32m246348688623013888[0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2024-12-07 21:33:14.618 TRACE com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:143  [32m246348688623013888[0;39m <==        Row: 41265633660375040, 7, 41260840728530944, JS节流策略实战, 1, 22, 4
+2024-12-07 21:33:14.618 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:137  [32m246348688623013888[0;39m <==      Total: 1
+2024-12-07 21:33:14.624 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348688623013888[0;39m 返回结果: {"success":true}
+2024-12-07 21:33:14.624 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348688623013888[0;39m ------------- 结束 耗时：62 ms -------------
+2024-12-07 21:33:37.887 INFO  com.jiawa.wiki.websocket.SocketServer             :39   [32m                  [0;39m client【C5k4aQF6rx】断开连接
+2024-12-07 21:33:40.267 INFO  com.jiawa.wiki.websocket.SocketServer             :27   [32m                  [0;39m client【EtrVRiJYkq】连接成功
+2024-12-07 21:33:40.399 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348796991246336[0;39m ------------- 开始 -------------
+2024-12-07 21:33:40.400 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348796991246336[0;39m 请求地址: http://127.0.0.1:8880/doc/all/7 GET
+2024-12-07 21:33:40.400 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348796991246336[0;39m 类名方法: com.jiawa.wiki.controller.DocController.all
+2024-12-07 21:33:40.400 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348796991246336[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:40.400 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348796991246336[0;39m 请求参数: [7]
+2024-12-07 21:33:40.403 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348797008023552[0;39m ------------- 开始 -------------
+2024-12-07 21:33:40.404 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348797008023552[0;39m 请求地址: http://127.0.0.1:8880/doc/comments/7 GET
+2024-12-07 21:33:40.404 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348797008023552[0;39m 类名方法: com.jiawa.wiki.controller.DocController.CommentResp
+2024-12-07 21:33:40.404 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :32   [32m246348677759766528[0;39m ------------- LoginInterceptor 开始 -------------
+2024-12-07 21:33:40.404 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :43   [32m246348677759766528[0;39m 接口登录拦截：，path：http://127.0.0.1:8880/doc/obrecord
+2024-12-07 21:33:40.404 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348797008023552[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:40.404 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :47   [32m246348677759766528[0;39m 登录校验开始，token：246348133687234560
+2024-12-07 21:33:40.404 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348797008023552[0;39m 请求参数: [7]
+2024-12-07 21:33:40.410 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348796991246336[0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc WHERE ( ebook_id = ? ) order by sort asc
+2024-12-07 21:33:40.410 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348796991246336[0;39m ==> Parameters: 7(Long)
+2024-12-07 21:33:40.416 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :59   [32m246348677759766528[0;39m 已登录：{"id":1,"loginName":"test","name":"test","token":"246348133687234560"}
+2024-12-07 21:33:40.418 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348797070938112[0;39m ------------- 开始 -------------
+2024-12-07 21:33:40.418 DEBUG c.j.wiki.mapper.CommentMapper.selectCommentResp   :137  [32m246348797008023552[0;39m ==>  Preparing: SELECT comment.*, user.avatar, user.name FROM comment INNER JOIN user ON comment.user_id = user.id WHERE comment.ebook_id = ?
+2024-12-07 21:33:40.419 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348796991246336[0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2024-12-07 21:33:40.419 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348796991246336[0;39m <==        Row: 41260598448754688, 7, 0, JS的优化策略, 1, 75, 5
+2024-12-07 21:33:40.419 DEBUG c.j.wiki.mapper.CommentMapper.selectCommentResp   :137  [32m246348797008023552[0;39m ==> Parameters: 7(Long)
+2024-12-07 21:33:40.419 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348796991246336[0;39m <==        Row: 41261844488392704, 7, 41260702874341376, JS实战防抖策略基础, 1, 36, 6
+2024-12-07 21:33:40.419 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348796991246336[0;39m <==        Row: 41265633660375040, 7, 41260840728530944, JS节流策略实战, 1, 22, 4
+2024-12-07 21:33:40.418 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348797070938112[0;39m 请求地址: http://127.0.0.1:8880/doc/obrecord GET
+2024-12-07 21:33:40.420 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348796991246336[0;39m <==        Row: 41260702874341376, 7, 0, JS的防抖策略, 2, 14, 2
+2024-12-07 21:33:40.420 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348796991246336[0;39m <==        Row: 41260840728530944, 7, 0, JS的节流策略, 3, 14, 3
+2024-12-07 21:33:40.422 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348796991246336[0;39m <==      Total: 5
+2024-12-07 21:33:40.423 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348796991246336[0;39m 返回结果: {"content":[{"ebookId":7,"id":41260598448754688,"name":"JS的优化策略","parent":0,"sort":1,"viewCount":75,"voteCount":5},{"ebookId":7,"id":41261844488392704,"name":"JS实战防抖策略基础","parent":41260702874341376,"sort":1,"viewCount":36,"voteCount":6},{"ebookId":7,"id":41265633660375040,"name":"JS节流策略实战","parent":41260840728530944,"sort":1,"viewCount":22,"voteCount":4},{"ebookId":7,"id":41260702874341376,"name":"JS的防抖策略","parent":0,"sort":2,"viewCount":14,"voteCount":2},{"ebookId":7,"id":41260840728530944,"name":"JS的节流策略","parent":0,"sort":3,"viewCount":14,"voteCount":3}],"success":true}
+2024-12-07 21:33:40.423 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348796991246336[0;39m ------------- 结束 耗时：24 ms -------------
+2024-12-07 21:33:40.420 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348797070938112[0;39m 类名方法: com.jiawa.wiki.controller.DocController.obrecord
+2024-12-07 21:33:40.423 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348797070938112[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:40.424 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348797070938112[0;39m 请求参数: [1,7]
+2024-12-07 21:33:40.425 DEBUG c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:137  [32m246348797070938112[0;39m ==>  Preparing: select * from read_progress where user_id = ? and ebook_id = ?
+2024-12-07 21:33:40.425 DEBUG c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:137  [32m246348797070938112[0;39m ==> Parameters: 1(Long), 7(Long)
+2024-12-07 21:33:40.430 DEBUG c.j.wiki.mapper.CommentMapper.selectCommentResp   :137  [32m246348797008023552[0;39m <==      Total: 0
+2024-12-07 21:33:40.431 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348797008023552[0;39m 返回结果: {"content":[],"success":true}
+2024-12-07 21:33:40.431 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348797008023552[0;39m ------------- 结束 耗时：28 ms -------------
+2024-12-07 21:33:40.442 TRACE c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:143  [32m246348797070938112[0;39m <==    Columns: id, user_id, ebook_id, doc_id
+2024-12-07 21:33:40.442 TRACE c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:143  [32m246348797070938112[0;39m <==        Row: 5, 1, 7, 41265633660375040
+2024-12-07 21:33:40.443 DEBUG c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:137  [32m246348797070938112[0;39m <==      Total: 1
+2024-12-07 21:33:40.458 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348797070938112[0;39m 返回结果: {"content":{"docId":41265633660375040,"ebookId":7,"id":5,"userId":1},"success":true}
+2024-12-07 21:33:40.458 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348797070938112[0;39m ------------- 结束 耗时：41 ms -------------
+2024-12-07 21:33:40.459 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :68   [32m246348797070938112[0;39m ------------- LoginInterceptor 结束 耗时：55 ms -------------
+2024-12-07 21:33:40.459 INFO  com.jiawa.wiki.interceptor.LoginInterceptor       :75   [32m246348797070938112[0;39m LogInterceptor 结束
+2024-12-07 21:33:40.516 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348797481979904[0;39m ------------- 开始 -------------
+2024-12-07 21:33:40.517 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348797481979904[0;39m 请求地址: http://127.0.0.1:8880/doc/find-content/41260598448754688 GET
+2024-12-07 21:33:40.518 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348797481979904[0;39m 类名方法: com.jiawa.wiki.controller.DocController.findContent
+2024-12-07 21:33:40.518 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348797481979904[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:40.518 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348797481979904[0;39m 请求参数: [41260598448754688]
+2024-12-07 21:33:40.519 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348797481979904[0;39m ==>  Preparing: select id , content from content where id = ?
+2024-12-07 21:33:40.520 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348797481979904[0;39m ==> Parameters: 41260598448754688(Long)
+2024-12-07 21:33:40.526 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348797523922944[0;39m ------------- 开始 -------------
+2024-12-07 21:33:40.526 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348797523922944[0;39m 请求地址: http://127.0.0.1:8880/doc/all/7 GET
+2024-12-07 21:33:40.527 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348797523922944[0;39m 类名方法: com.jiawa.wiki.controller.DocController.all
+2024-12-07 21:33:40.527 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348797523922944[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:40.527 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348797523922944[0;39m 请求参数: [7]
+2024-12-07 21:33:40.528 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348797481979904[0;39m <==    Columns: id, content
+2024-12-07 21:33:40.528 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348797481979904[0;39m <==        Row: 41260598448754688, <<BLOB>>
+2024-12-07 21:33:40.528 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348797481979904[0;39m <==      Total: 1
+2024-12-07 21:33:40.529 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348797523922944[0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc WHERE ( ebook_id = ? ) order by sort asc
+2024-12-07 21:33:40.529 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348797481979904[0;39m ==>  Preparing: update doc set view_count = view_count + 1 where id = ?
+2024-12-07 21:33:40.529 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348797481979904[0;39m ==> Parameters: 41260598448754688(Long)
+2024-12-07 21:33:40.529 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348797523922944[0;39m ==> Parameters: 7(Long)
+2024-12-07 21:33:40.539 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348797523922944[0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2024-12-07 21:33:40.539 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348797523922944[0;39m <==        Row: 41260598448754688, 7, 0, JS的优化策略, 1, 75, 5
+2024-12-07 21:33:40.540 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348797523922944[0;39m <==        Row: 41261844488392704, 7, 41260702874341376, JS实战防抖策略基础, 1, 36, 6
+2024-12-07 21:33:40.540 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348797523922944[0;39m <==        Row: 41265633660375040, 7, 41260840728530944, JS节流策略实战, 1, 22, 4
+2024-12-07 21:33:40.540 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348797523922944[0;39m <==        Row: 41260702874341376, 7, 0, JS的防抖策略, 2, 14, 2
+2024-12-07 21:33:40.540 TRACE com.jiawa.wiki.mapper.DocMapper.selectByExample   :143  [32m246348797523922944[0;39m <==        Row: 41260840728530944, 7, 0, JS的节流策略, 3, 14, 3
+2024-12-07 21:33:40.541 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByExample   :137  [32m246348797523922944[0;39m <==      Total: 5
+2024-12-07 21:33:40.543 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348797523922944[0;39m 返回结果: {"content":[{"ebookId":7,"id":41260598448754688,"name":"JS的优化策略","parent":0,"sort":1,"viewCount":75,"voteCount":5},{"ebookId":7,"id":41261844488392704,"name":"JS实战防抖策略基础","parent":41260702874341376,"sort":1,"viewCount":36,"voteCount":6},{"ebookId":7,"id":41265633660375040,"name":"JS节流策略实战","parent":41260840728530944,"sort":1,"viewCount":22,"voteCount":4},{"ebookId":7,"id":41260702874341376,"name":"JS的防抖策略","parent":0,"sort":2,"viewCount":14,"voteCount":2},{"ebookId":7,"id":41260840728530944,"name":"JS的节流策略","parent":0,"sort":3,"viewCount":14,"voteCount":3}],"success":true}
+2024-12-07 21:33:40.543 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348797523922944[0;39m ------------- 结束 耗时：17 ms -------------
+2024-12-07 21:33:40.549 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348797481979904[0;39m <==    Updates: 1
+2024-12-07 21:33:40.549 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348797481979904[0;39m 返回结果: {"content":"<p>防抖（Debounce）和节流（Throttle）是在 JavaScript 中常见的两种优化策略，它们的主要目的是控制函数的执行频率。这两种策略在处理一些高频率事件（如滚动、输入、点击等）时非常有用，可以帮助我们避免因为频繁的函数执行而导致的性能问题。<br></p>","success":true}
+2024-12-07 21:33:40.549 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348797481979904[0;39m ------------- 结束 耗时：33 ms -------------
+2024-12-07 21:33:40.686 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348798195011584[0;39m ------------- 开始 -------------
+2024-12-07 21:33:40.688 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348798195011584[0;39m 请求地址: http://127.0.0.1:8880/doc/find-content/41265633660375040 GET
+2024-12-07 21:33:40.688 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348798195011584[0;39m 类名方法: com.jiawa.wiki.controller.DocController.findContent
+2024-12-07 21:33:40.688 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348798195011584[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:40.688 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348798195011584[0;39m 请求参数: [41265633660375040]
+2024-12-07 21:33:40.689 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348798195011584[0;39m ==>  Preparing: select id , content from content where id = ?
+2024-12-07 21:33:40.690 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348798195011584[0;39m ==> Parameters: 41265633660375040(Long)
+2024-12-07 21:33:40.700 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348798195011584[0;39m <==    Columns: id, content
+2024-12-07 21:33:40.700 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348798195011584[0;39m <==        Row: 41265633660375040, <<BLOB>>
+2024-12-07 21:33:40.701 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348798195011584[0;39m <==      Total: 1
+2024-12-07 21:33:40.702 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348798195011584[0;39m ==>  Preparing: update doc set view_count = view_count + 1 where id = ?
+2024-12-07 21:33:40.702 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348798195011584[0;39m ==> Parameters: 41265633660375040(Long)
+2024-12-07 21:33:40.720 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348798195011584[0;39m <==    Updates: 1
+2024-12-07 21:33:40.721 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348798195011584[0;39m 返回结果: {"content":"<p>let lastCallTime;<br><br>function throttle(func, delay) {<br>    return function(...args) {<br>        const now = Date.now();<br>        if (!lastCallTime || (now - lastCallTime) &gt; delay) {<br>            lastCallTime = now;<br>            return func.apply(this, args);<br>        }<br>    }<br>}<br><br>// 使用示例：<br>const throttledFunction = throttle(() =&gt; console.log('Function Executed'), 2000);<br><br>// 然后你就可以按照正常方式调用这个被节流的函数了：<br>throttledFunction();<br>throttledFunction();<br>throttledFunction();<br>// 以上三次调用，只有第一次会被执行，后两次调用因为在2秒之内，所以不会执行<br></p>","success":true}
+2024-12-07 21:33:40.721 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348798195011584[0;39m ------------- 结束 耗时：35 ms -------------
+2024-12-07 21:33:47.206 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348825541873664[0;39m ------------- 开始 -------------
+2024-12-07 21:33:47.206 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348825541873664[0;39m 请求地址: http://127.0.0.1:8880/doc/vote/41265633660375040 GET
+2024-12-07 21:33:47.206 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348825541873664[0;39m 类名方法: com.jiawa.wiki.controller.DocController.vote
+2024-12-07 21:33:47.207 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348825541873664[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:47.207 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348825541873664[0;39m 请求参数: [41265633660375040]
+2024-12-07 21:33:47.217 INFO  com.jiawa.wiki.util.RedisUtil                     :34   [32m246348825541873664[0;39m key已存在：DOC_VOTE_41265633660375040_127.0.0.1
+2024-12-07 21:33:47.223 WARN  com.jiawa.wiki.config.ControllerExceptionHandler  :44   [32m246348825541873664[0;39m 业务异常：您已点赞过
+2024-12-07 21:33:47.226 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m246348825541873664[0;39m Resolved [com.jiawa.wiki.exception.BusinessException: 您已点赞过]
+2024-12-07 21:33:50.334 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348838657462272[0;39m ------------- 开始 -------------
+2024-12-07 21:33:50.334 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348838657462272[0;39m 请求地址: http://127.0.0.1:8880/doc/find-content/41261844488392704 GET
+2024-12-07 21:33:50.334 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348838657462272[0;39m 类名方法: com.jiawa.wiki.controller.DocController.findContent
+2024-12-07 21:33:50.334 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348838657462272[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:50.335 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348838657462272[0;39m 请求参数: [41261844488392704]
+2024-12-07 21:33:50.346 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348838657462272[0;39m ==>  Preparing: select id , content from content where id = ?
+2024-12-07 21:33:50.347 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348838657462272[0;39m ==> Parameters: 41261844488392704(Long)
+2024-12-07 21:33:50.359 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348838657462272[0;39m <==    Columns: id, content
+2024-12-07 21:33:50.360 TRACE c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m246348838657462272[0;39m <==        Row: 41261844488392704, <<BLOB>>
+2024-12-07 21:33:50.360 DEBUG c.j.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m246348838657462272[0;39m <==      Total: 1
+2024-12-07 21:33:50.361 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348838657462272[0;39m ==>  Preparing: update doc set view_count = view_count + 1 where id = ?
+2024-12-07 21:33:50.362 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348838657462272[0;39m ==> Parameters: 41261844488392704(Long)
+2024-12-07 21:33:50.379 DEBUG c.j.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m246348838657462272[0;39m <==    Updates: 1
+2024-12-07 21:33:50.379 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348838657462272[0;39m 返回结果: {"content":"<h1 id=\"hh0ah\">直接说我们的一个实战应用需求：</h1><h2 id=\"gtq2e\">&nbsp; &nbsp;目前我们需要保存用户的最后一次退出页面的文档记录，但是我们不能每次都一直执行，如果用户一直点文档的话，会造成我们的一个性能损耗，所以我们需要有这么一个防抖策略</h2><p>&nbsp; &nbsp;<b> 1. 定义一个值<span style=\"font-family: SFMono-Regular, Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace; font-size: 1em;\">let timeoutId: number | undefined; // 这是一个全局变量，用于储存当前的定时器ID</span></b></p><p><span style=\"font-family: SFMono-Regular, Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace; font-size: 1em;\"><b>&nbsp; 2.设置一个防抖方法</b></span></p><p><b><span style=\"font-family: SFMono-Regular, Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace; font-size: 1em;\">&nbsp; &nbsp;</span>const debounceSaveDoc = () =&gt; {</b></p><b>&nbsp; &nbsp; &nbsp;clearTimeout(timeoutId)// 如果已有定时器，清除它<br>&nbsp; &nbsp; &nbsp;// 设定一个新的定时器，在一段时间后再次调用saveDoc函数<br>&nbsp; &nbsp; &nbsp;timeoutId = setTimeout(saveDoc, 3000);<br>&nbsp; &nbsp; &nbsp; }</b><p><b>&nbsp; &nbsp; &nbsp; 3.在应用到他的地方将这个方法替换成debounceSaveDoc&nbsp;</b></p><p><b>&nbsp; &nbsp; &nbsp; &nbsp;const onSelect = (selectedKey: any, info: any) =&gt; {</b></p><b>        if (Tool.isNotEmpty(selectedKey)) {<br>          // 选中某一节点时，加载该节点的文档信息<br>          doc.value = info.selectedNodes[0].props;<br>          // 加载内容<br>          handleQueryContent(selectedKey[0]);<br>          if (store.state.user.id !=null) {<br>            debounceSaveDoc();<br>          }<br>          // 更新选中的节点<br>          defaultSelectedKeys.value = selectedKey;<br>        }<br>      };</b><h1 id=\"m3inf\">&nbsp;总结：这么一来，用户在点击文档后，停留三秒才会去执行saveDocId的方法，减少了性能损耗</h1>","success":true}
+2024-12-07 21:33:50.379 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348838657462272[0;39m ------------- 结束 耗时：46 ms -------------
+2024-12-07 21:33:53.351 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348851315871744[0;39m ------------- 开始 -------------
+2024-12-07 21:33:53.351 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348851315871744[0;39m 请求地址: http://127.0.0.1:8880/doc/saveDocrecord POST
+2024-12-07 21:33:53.351 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348851315871744[0;39m 类名方法: com.jiawa.wiki.controller.DocController.saveDocrecord
+2024-12-07 21:33:53.352 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348851315871744[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:53.352 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348851315871744[0;39m 请求参数: [{"docId":41261844488392704,"ebookId":7,"userId":1}]
+2024-12-07 21:33:53.360 DEBUG c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:137  [32m246348851315871744[0;39m ==>  Preparing: select * from read_progress where user_id = ? and ebook_id = ?
+2024-12-07 21:33:53.360 DEBUG c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:137  [32m246348851315871744[0;39m ==> Parameters: 1(Long), 7(Long)
+2024-12-07 21:33:53.367 TRACE c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:143  [32m246348851315871744[0;39m <==    Columns: id, user_id, ebook_id, doc_id
+2024-12-07 21:33:53.367 TRACE c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:143  [32m246348851315871744[0;39m <==        Row: 5, 1, 7, 41265633660375040
+2024-12-07 21:33:53.367 DEBUG c.j.wiki.mapper.ReadProgressMapper.selectDocrecord:137  [32m246348851315871744[0;39m <==      Total: 1
+2024-12-07 21:33:53.371 DEBUG c.j.w.mapper.ReadProgressMapper.updateByPrimaryKey:137  [32m246348851315871744[0;39m ==>  Preparing: update read_progress set user_id = ?, ebook_id = ?, doc_id = ? where id = ?
+2024-12-07 21:33:53.371 DEBUG c.j.w.mapper.ReadProgressMapper.updateByPrimaryKey:137  [32m246348851315871744[0;39m ==> Parameters: 1(Long), 7(Long), 41261844488392704(Long), 5(Long)
+2024-12-07 21:33:53.406 DEBUG c.j.w.mapper.ReadProgressMapper.updateByPrimaryKey:137  [32m246348851315871744[0;39m <==    Updates: 1
+2024-12-07 21:33:53.414 INFO  com.jiawa.wiki.util.RedisUtil                     :52   [32m246348851315871744[0;39m 保存用户 1 的浏览记录到Redis，docId：41261844488392704，过期时间：86400秒
+2024-12-07 21:33:53.414 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348851315871744[0;39m 返回结果: {"content":{"docId":41261844488392704,"ebookId":7,"id":5,"userId":1},"success":true}
+2024-12-07 21:33:53.417 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348851315871744[0;39m ------------- 结束 耗时：66 ms -------------
+2024-12-07 21:33:53.632 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m246348852494471168[0;39m ------------- 开始 -------------
+2024-12-07 21:33:53.633 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m246348852494471168[0;39m 请求地址: http://127.0.0.1:8880/doc/vote/41261844488392704 GET
+2024-12-07 21:33:53.633 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m246348852494471168[0;39m 类名方法: com.jiawa.wiki.controller.DocController.vote
+2024-12-07 21:33:53.633 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m246348852494471168[0;39m 远程地址: 127.0.0.1
+2024-12-07 21:33:53.633 INFO  com.jiawa.wiki.aspect.LogAspect                   :77   [32m246348852494471168[0;39m 请求参数: [41261844488392704]
+2024-12-07 21:33:53.644 INFO  com.jiawa.wiki.util.RedisUtil                     :37   [32m246348852494471168[0;39m key不存在，放入：DOC_VOTE_41261844488392704_127.0.0.1，过期 5000 秒
+2024-12-07 21:33:53.653 DEBUG c.j.wiki.mapper.DocMapperCust.increaseVoteCount   :137  [32m246348852494471168[0;39m ==>  Preparing: update doc set vote_count = vote_count + 1 where id = ?
+2024-12-07 21:33:53.654 DEBUG c.j.wiki.mapper.DocMapperCust.increaseVoteCount   :137  [32m246348852494471168[0;39m ==> Parameters: 41261844488392704(Long)
+2024-12-07 21:33:53.673 DEBUG c.j.wiki.mapper.DocMapperCust.increaseVoteCount   :137  [32m246348852494471168[0;39m <==    Updates: 1
+2024-12-07 21:33:53.674 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:137  [32m246348852494471168[0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc where id = ?
+2024-12-07 21:33:53.674 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:137  [32m246348852494471168[0;39m ==> Parameters: 41261844488392704(Long)
+2024-12-07 21:33:53.684 TRACE com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:143  [32m246348852494471168[0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2024-12-07 21:33:53.684 TRACE com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:143  [32m246348852494471168[0;39m <==        Row: 41261844488392704, 7, 41260702874341376, JS实战防抖策略基础, 1, 37, 7
+2024-12-07 21:33:53.684 DEBUG com.jiawa.wiki.mapper.DocMapper.selectByPrimaryKey:137  [32m246348852494471168[0;39m <==      Total: 1
+2024-12-07 21:33:53.685 INFO  com.jiawa.wiki.aspect.LogAspect                   :92   [32m246348852494471168[0;39m 返回结果: {"success":true}
+2024-12-07 21:33:53.685 INFO  com.jiawa.wiki.aspect.LogAspect                   :93   [32m246348852494471168[0;39m ------------- 结束 耗时：53 ms -------------
+2024-12-07 21:34:00.014 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246348879262519296[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:34:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246348879262519296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:34:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246348879262519296[0;39m ==> Parameters: 
+2024-12-07 21:34:00.047 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246348879262519296[0;39m <==    Updates: 5
+2024-12-07 21:34:00.047 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246348879262519296[0;39m 更新电子书下的文档数据结束，耗时：33毫秒
+2024-12-07 21:36:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246349382553833472[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:36:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246349382553833472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:36:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246349382553833472[0;39m ==> Parameters: 
+2024-12-07 21:36:00.034 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246349382553833472[0;39m <==    Updates: 5
+2024-12-07 21:36:00.034 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246349382553833472[0;39m 更新电子书下的文档数据结束，耗时：26毫秒
+2024-12-07 21:38:00.009 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246349885874507776[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:38:00.017 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246349885874507776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:38:00.018 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246349885874507776[0;39m ==> Parameters: 
+2024-12-07 21:38:00.050 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246349885874507776[0;39m <==    Updates: 5
+2024-12-07 21:38:00.050 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246349885874507776[0;39m 更新电子书下的文档数据结束，耗时：41毫秒
+2024-12-07 21:40:00.014 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246350389211959296[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:40:00.017 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246350389211959296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:40:00.024 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246350389211959296[0;39m ==> Parameters: 
+2024-12-07 21:40:00.049 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246350389211959296[0;39m <==    Updates: 5
+2024-12-07 21:40:00.049 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246350389211959296[0;39m 更新电子书下的文档数据结束，耗时：35毫秒
+2024-12-07 21:40:00.049 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :32   [32m246350389358759936[0;39m 生成今日电子书快照开始
+2024-12-07 21:40:00.049 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246350389358759936[0;39m ==>  Preparing: insert into ebook_snapshot(ebook_id, `date`, view_count, vote_count, view_increase, vote_increase) select t1.id, curdate(), 0, 0, 0, 0 from ebook t1 where not exists(select 1 from ebook_snapshot t2 where t1.id = t2.ebook_id and t2.`date` = curdate()); update ebook_snapshot t1, ebook t2 set t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.`date` = curdate() and t1.ebook_id = t2.id; update ebook_snapshot t1 left join (select ebook_id, view_count, vote_count from ebook_snapshot where `date` = date_sub(curdate(), interval 1 day)) t2 on t1.ebook_id = t2.ebook_id set t1.view_increase = (t1.view_count - ifnull(t2.view_count, 0)), t1.vote_increase = (t1.vote_count - ifnull(t2.vote_count, 0)) where t1.`date` = curdate();
+2024-12-07 21:40:00.049 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246350389358759936[0;39m ==> Parameters: 
+2024-12-07 21:40:00.078 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246350389358759936[0;39m <==    Updates: 0
+2024-12-07 21:40:00.078 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :35   [32m246350389358759936[0;39m 生成今日电子书快照结束，耗时：29毫秒
+2024-12-07 21:42:00.012 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246350892520050688[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:42:00.021 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246350892520050688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:42:00.021 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246350892520050688[0;39m ==> Parameters: 
+2024-12-07 21:42:00.044 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246350892520050688[0;39m <==    Updates: 5
+2024-12-07 21:42:00.044 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246350892520050688[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 21:44:00.003 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246351395798781952[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:44:00.005 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246351395798781952[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:44:00.013 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246351395798781952[0;39m ==> Parameters: 
+2024-12-07 21:44:00.035 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246351395798781952[0;39m <==    Updates: 5
+2024-12-07 21:44:00.035 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246351395798781952[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 21:46:00.009 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246351899140427776[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:46:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246351899140427776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:46:00.020 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246351899140427776[0;39m ==> Parameters: 
+2024-12-07 21:46:00.048 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246351899140427776[0;39m <==    Updates: 5
+2024-12-07 21:46:00.053 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246351899140427776[0;39m 更新电子书下的文档数据结束，耗时：43毫秒
+2024-12-07 21:48:00.011 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246352402465296384[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:48:00.020 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246352402465296384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:48:00.020 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246352402465296384[0;39m ==> Parameters: 
+2024-12-07 21:48:00.044 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246352402465296384[0;39m <==    Updates: 5
+2024-12-07 21:48:00.044 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246352402465296384[0;39m 更新电子书下的文档数据结束，耗时：33毫秒
+2024-12-07 21:50:00.004 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246352905752416256[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:50:00.006 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246352905752416256[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:50:00.006 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246352905752416256[0;39m ==> Parameters: 
+2024-12-07 21:50:00.033 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246352905752416256[0;39m <==    Updates: 5
+2024-12-07 21:50:00.033 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246352905752416256[0;39m 更新电子书下的文档数据结束，耗时：29毫秒
+2024-12-07 21:52:00.003 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246353409064701952[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:52:00.005 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246353409064701952[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:52:00.013 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246353409064701952[0;39m ==> Parameters: 
+2024-12-07 21:52:00.025 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246353409064701952[0;39m <==    Updates: 5
+2024-12-07 21:52:00.025 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246353409064701952[0;39m 更新电子书下的文档数据结束，耗时：22毫秒
+2024-12-07 21:54:00.005 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246353912389570560[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:54:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246353912389570560[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:54:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246353912389570560[0;39m ==> Parameters: 
+2024-12-07 21:54:00.042 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246353912389570560[0;39m <==    Updates: 5
+2024-12-07 21:54:00.042 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246353912389570560[0;39m 更新电子书下的文档数据结束，耗时：37毫秒
+2024-12-07 21:56:00.012 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246354415735410688[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:56:00.024 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246354415735410688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:56:00.024 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246354415735410688[0;39m ==> Parameters: 
+2024-12-07 21:56:00.042 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246354415735410688[0;39m <==    Updates: 5
+2024-12-07 21:56:00.042 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246354415735410688[0;39m 更新电子书下的文档数据结束，耗时：30毫秒
+2024-12-07 21:58:00.007 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246354919030919168[0;39m 更新电子书下的文档数据开始
+2024-12-07 21:58:00.015 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246354919030919168[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 21:58:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246354919030919168[0;39m ==> Parameters: 
+2024-12-07 21:58:00.036 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246354919030919168[0;39m <==    Updates: 5
+2024-12-07 21:58:00.036 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246354919030919168[0;39m 更新电子书下的文档数据结束，耗时：29毫秒
+2024-12-07 22:00:00.011 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :32   [32m246355422364176384[0;39m 生成今日电子书快照开始
+2024-12-07 22:00:00.023 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246355422364176384[0;39m ==>  Preparing: insert into ebook_snapshot(ebook_id, `date`, view_count, vote_count, view_increase, vote_increase) select t1.id, curdate(), 0, 0, 0, 0 from ebook t1 where not exists(select 1 from ebook_snapshot t2 where t1.id = t2.ebook_id and t2.`date` = curdate()); update ebook_snapshot t1, ebook t2 set t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.`date` = curdate() and t1.ebook_id = t2.id; update ebook_snapshot t1 left join (select ebook_id, view_count, vote_count from ebook_snapshot where `date` = date_sub(curdate(), interval 1 day)) t2 on t1.ebook_id = t2.ebook_id set t1.view_increase = (t1.view_count - ifnull(t2.view_count, 0)), t1.vote_increase = (t1.vote_count - ifnull(t2.vote_count, 0)) where t1.`date` = curdate();
+2024-12-07 22:00:00.023 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246355422364176384[0;39m ==> Parameters: 
+2024-12-07 22:00:00.074 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246355422364176384[0;39m <==    Updates: 0
+2024-12-07 22:00:00.074 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :35   [32m246355422364176384[0;39m 生成今日电子书快照结束，耗时：62毫秒
+2024-12-07 22:00:00.074 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246355422628417536[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:00:00.074 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246355422628417536[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:00:00.074 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246355422628417536[0;39m ==> Parameters: 
+2024-12-07 22:00:00.102 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246355422628417536[0;39m <==    Updates: 5
+2024-12-07 22:00:00.102 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246355422628417536[0;39m 更新电子书下的文档数据结束，耗时：28毫秒
+2024-12-07 22:02:00.011 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246355925680656384[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:02:00.022 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246355925680656384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:02:00.022 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246355925680656384[0;39m ==> Parameters: 
+2024-12-07 22:02:00.073 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246355925680656384[0;39m <==    Updates: 5
+2024-12-07 22:02:00.073 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246355925680656384[0;39m 更新电子书下的文档数据结束，耗时：62毫秒
+2024-12-07 22:04:00.009 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246356428988747776[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:04:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246356428988747776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:04:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246356428988747776[0;39m ==> Parameters: 
+2024-12-07 22:04:00.039 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246356428988747776[0;39m <==    Updates: 5
+2024-12-07 22:04:00.040 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246356428988747776[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 22:06:00.016 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246356932334587904[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:06:00.025 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246356932334587904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:06:00.025 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246356932334587904[0;39m ==> Parameters: 
+2024-12-07 22:06:00.044 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246356932334587904[0;39m <==    Updates: 5
+2024-12-07 22:06:00.045 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246356932334587904[0;39m 更新电子书下的文档数据结束，耗时：28毫秒
+2024-12-07 22:08:00.005 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246357435604930560[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:08:00.014 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246357435604930560[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:08:00.014 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246357435604930560[0;39m ==> Parameters: 
+2024-12-07 22:08:00.032 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246357435604930560[0;39m <==    Updates: 5
+2024-12-07 22:08:00.032 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246357435604930560[0;39m 更新电子书下的文档数据结束，耗时：26毫秒
+2024-12-07 22:10:00.009 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246357938938187776[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:10:00.018 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246357938938187776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:10:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246357938938187776[0;39m ==> Parameters: 
+2024-12-07 22:10:00.040 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246357938938187776[0;39m <==    Updates: 5
+2024-12-07 22:10:00.040 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246357938938187776[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 22:12:00.013 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246358442271444992[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:12:00.024 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246358442271444992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:12:00.024 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246358442271444992[0;39m ==> Parameters: 
+2024-12-07 22:12:00.050 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246358442271444992[0;39m <==    Updates: 5
+2024-12-07 22:12:00.050 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246358442271444992[0;39m 更新电子书下的文档数据结束，耗时：37毫秒
+2024-12-07 22:14:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246358945566953472[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:14:00.015 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246358945566953472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:14:00.015 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246358945566953472[0;39m ==> Parameters: 
+2024-12-07 22:14:00.039 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246358945566953472[0;39m <==    Updates: 5
+2024-12-07 22:14:00.039 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246358945566953472[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 22:16:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246359448883433472[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:16:00.018 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246359448883433472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:16:00.018 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246359448883433472[0;39m ==> Parameters: 
+2024-12-07 22:16:00.040 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246359448883433472[0;39m <==    Updates: 5
+2024-12-07 22:16:00.040 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246359448883433472[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 22:18:00.016 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246359952233467904[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:18:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246359952233467904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:18:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246359952233467904[0;39m ==> Parameters: 
+2024-12-07 22:18:00.048 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246359952233467904[0;39m <==    Updates: 5
+2024-12-07 22:18:00.048 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246359952233467904[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 22:20:00.003 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :32   [32m246360455495421952[0;39m 生成今日电子书快照开始
+2024-12-07 22:20:00.003 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246360455495421952[0;39m ==>  Preparing: insert into ebook_snapshot(ebook_id, `date`, view_count, vote_count, view_increase, vote_increase) select t1.id, curdate(), 0, 0, 0, 0 from ebook t1 where not exists(select 1 from ebook_snapshot t2 where t1.id = t2.ebook_id and t2.`date` = curdate()); update ebook_snapshot t1, ebook t2 set t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.`date` = curdate() and t1.ebook_id = t2.id; update ebook_snapshot t1 left join (select ebook_id, view_count, vote_count from ebook_snapshot where `date` = date_sub(curdate(), interval 1 day)) t2 on t1.ebook_id = t2.ebook_id set t1.view_increase = (t1.view_count - ifnull(t2.view_count, 0)), t1.vote_increase = (t1.vote_count - ifnull(t2.vote_count, 0)) where t1.`date` = curdate();
+2024-12-07 22:20:00.003 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246360455495421952[0;39m ==> Parameters: 
+2024-12-07 22:20:00.040 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246360455495421952[0;39m <==    Updates: 0
+2024-12-07 22:20:00.040 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :35   [32m246360455495421952[0;39m 生成今日电子书快照结束，耗时：37毫秒
+2024-12-07 22:20:00.040 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246360455650611200[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:20:00.040 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246360455650611200[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:20:00.041 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246360455650611200[0;39m ==> Parameters: 
+2024-12-07 22:20:00.051 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246360455650611200[0;39m <==    Updates: 5
+2024-12-07 22:20:00.051 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246360455650611200[0;39m 更新电子书下的文档数据结束，耗时：11毫秒
+2024-12-07 22:22:00.024 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246360958899982336[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:22:00.026 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246360958899982336[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:22:00.026 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246360958899982336[0;39m ==> Parameters: 
+2024-12-07 22:22:00.040 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246360958899982336[0;39m <==    Updates: 5
+2024-12-07 22:22:00.040 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246360958899982336[0;39m 更新电子书下的文档数据结束，耗时：16毫秒
+2024-12-07 22:24:00.023 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246361462212268032[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:24:00.028 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246361462212268032[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:24:00.028 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246361462212268032[0;39m ==> Parameters: 
+2024-12-07 22:24:00.056 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246361462212268032[0;39m <==    Updates: 5
+2024-12-07 22:24:00.056 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246361462212268032[0;39m 更新电子书下的文档数据结束，耗时：33毫秒
+2024-12-07 22:26:00.009 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246361965470027776[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:26:00.010 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246361965470027776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:26:00.010 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246361965470027776[0;39m ==> Parameters: 
+2024-12-07 22:26:00.030 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246361965470027776[0;39m <==    Updates: 5
+2024-12-07 22:26:00.030 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246361965470027776[0;39m 更新电子书下的文档数据结束，耗时：21毫秒
+2024-12-07 22:28:00.022 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246362468841033728[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:28:00.026 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246362468841033728[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:28:00.026 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246362468841033728[0;39m ==> Parameters: 
+2024-12-07 22:28:00.040 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246362468841033728[0;39m <==    Updates: 5
+2024-12-07 22:28:00.040 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246362468841033728[0;39m 更新电子书下的文档数据结束，耗时：18毫秒
+2024-12-07 22:30:00.017 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246362972136542208[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:30:00.025 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246362972136542208[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:30:00.025 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246362972136542208[0;39m ==> Parameters: 
+2024-12-07 22:30:00.039 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246362972136542208[0;39m <==    Updates: 5
+2024-12-07 22:30:00.039 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246362972136542208[0;39m 更新电子书下的文档数据结束，耗时：22毫秒
+2024-12-07 22:32:00.022 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246363475473993728[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:32:00.025 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246363475473993728[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:32:00.025 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246363475473993728[0;39m ==> Parameters: 
+2024-12-07 22:32:00.040 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246363475473993728[0;39m <==    Updates: 5
+2024-12-07 22:32:00.040 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246363475473993728[0;39m 更新电子书下的文档数据结束，耗时：18毫秒
+2024-12-07 22:34:00.014 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246363978756919296[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:34:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246363978756919296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:34:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246363978756919296[0;39m ==> Parameters: 
+2024-12-07 22:34:00.035 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246363978756919296[0;39m <==    Updates: 5
+2024-12-07 22:34:00.046 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246363978756919296[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 22:36:00.003 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246364482027261952[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:36:00.012 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246364482027261952[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:36:00.012 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246364482027261952[0;39m ==> Parameters: 
+2024-12-07 22:36:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246364482027261952[0;39m <==    Updates: 5
+2024-12-07 22:36:00.019 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246364482027261952[0;39m 更新电子书下的文档数据结束，耗时：16毫秒
+2024-12-07 22:38:00.019 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246364985410850816[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:38:00.020 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246364985410850816[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:38:00.020 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246364985410850816[0;39m ==> Parameters: 
+2024-12-07 22:38:00.050 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246364985410850816[0;39m <==    Updates: 5
+2024-12-07 22:38:00.050 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246364985410850816[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 22:40:00.009 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :32   [32m246365488685387776[0;39m 生成今日电子书快照开始
+2024-12-07 22:40:00.014 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246365488685387776[0;39m ==>  Preparing: insert into ebook_snapshot(ebook_id, `date`, view_count, vote_count, view_increase, vote_increase) select t1.id, curdate(), 0, 0, 0, 0 from ebook t1 where not exists(select 1 from ebook_snapshot t2 where t1.id = t2.ebook_id and t2.`date` = curdate()); update ebook_snapshot t1, ebook t2 set t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.`date` = curdate() and t1.ebook_id = t2.id; update ebook_snapshot t1 left join (select ebook_id, view_count, vote_count from ebook_snapshot where `date` = date_sub(curdate(), interval 1 day)) t2 on t1.ebook_id = t2.ebook_id set t1.view_increase = (t1.view_count - ifnull(t2.view_count, 0)), t1.vote_increase = (t1.vote_count - ifnull(t2.vote_count, 0)) where t1.`date` = curdate();
+2024-12-07 22:40:00.014 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246365488685387776[0;39m ==> Parameters: 
+2024-12-07 22:40:00.030 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246365488685387776[0;39m <==    Updates: 0
+2024-12-07 22:40:00.030 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :35   [32m246365488685387776[0;39m 生成今日电子书快照结束，耗时：21毫秒
+2024-12-07 22:40:00.030 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246365488773468160[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:40:00.030 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246365488773468160[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:40:00.041 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246365488773468160[0;39m ==> Parameters: 
+2024-12-07 22:40:00.057 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246365488773468160[0;39m <==    Updates: 5
+2024-12-07 22:40:00.057 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246365488773468160[0;39m 更新电子书下的文档数据结束，耗时：27毫秒
+2024-12-07 22:42:00.003 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246365991976701952[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:42:00.013 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246365991976701952[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:42:00.013 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246365991976701952[0;39m ==> Parameters: 
+2024-12-07 22:42:00.037 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246365991976701952[0;39m <==    Updates: 5
+2024-12-07 22:42:00.037 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246365991976701952[0;39m 更新电子书下的文档数据结束，耗时：34毫秒
+2024-12-07 22:44:00.007 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246366495309959168[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:44:00.021 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246366495309959168[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:44:00.022 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246366495309959168[0;39m ==> Parameters: 
+2024-12-07 22:44:00.041 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246366495309959168[0;39m <==    Updates: 5
+2024-12-07 22:44:00.041 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246366495309959168[0;39m 更新电子书下的文档数据结束，耗时：34毫秒
+2024-12-07 22:46:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246366998630633472[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:46:00.008 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246366998630633472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:46:00.008 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246366998630633472[0;39m ==> Parameters: 
+2024-12-07 22:46:00.030 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246366998630633472[0;39m <==    Updates: 5
+2024-12-07 22:46:00.030 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246366998630633472[0;39m 更新电子书下的文档数据结束，耗时：22毫秒
+2024-12-07 22:48:00.017 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246367501984862208[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:48:00.033 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246367501984862208[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:48:00.033 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246367501984862208[0;39m ==> Parameters: 
+2024-12-07 22:48:00.049 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246367501984862208[0;39m <==    Updates: 5
+2024-12-07 22:48:00.049 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246367501984862208[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 22:50:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246368005263593472[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:50:00.008 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246368005263593472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:50:00.008 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246368005263593472[0;39m ==> Parameters: 
+2024-12-07 22:50:00.028 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246368005263593472[0;39m <==    Updates: 5
+2024-12-07 22:50:00.028 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246368005263593472[0;39m 更新电子书下的文档数据结束，耗时：20毫秒
+2024-12-07 22:52:00.026 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246368508655570944[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:52:00.030 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246368508655570944[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:52:00.030 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246368508655570944[0;39m ==> Parameters: 
+2024-12-07 22:52:00.060 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246368508655570944[0;39m <==    Updates: 5
+2024-12-07 22:52:00.061 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246368508655570944[0;39m 更新电子书下的文档数据结束，耗时：35毫秒
+2024-12-07 22:54:00.004 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246369011879776256[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:54:00.005 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246369011879776256[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:54:00.005 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246369011879776256[0;39m ==> Parameters: 
+2024-12-07 22:54:00.033 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246369011879776256[0;39m <==    Updates: 5
+2024-12-07 22:54:00.035 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246369011879776256[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 22:56:00.014 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246369515238199296[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:56:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246369515238199296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:56:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246369515238199296[0;39m ==> Parameters: 
+2024-12-07 22:56:00.035 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246369515238199296[0;39m <==    Updates: 5
+2024-12-07 22:56:00.046 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246369515238199296[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 22:58:00.016 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246370018563067904[0;39m 更新电子书下的文档数据开始
+2024-12-07 22:58:00.018 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246370018563067904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 22:58:00.018 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246370018563067904[0;39m ==> Parameters: 
+2024-12-07 22:58:00.047 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246370018563067904[0;39m <==    Updates: 5
+2024-12-07 22:58:00.047 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246370018563067904[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 23:00:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246370521845993472[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:00:00.008 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246370521845993472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:00:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246370521845993472[0;39m ==> Parameters: 
+2024-12-07 23:00:00.031 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246370521845993472[0;39m <==    Updates: 5
+2024-12-07 23:00:00.039 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246370521845993472[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 23:00:00.039 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :32   [32m246370521976016896[0;39m 生成今日电子书快照开始
+2024-12-07 23:00:00.039 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246370521976016896[0;39m ==>  Preparing: insert into ebook_snapshot(ebook_id, `date`, view_count, vote_count, view_increase, vote_increase) select t1.id, curdate(), 0, 0, 0, 0 from ebook t1 where not exists(select 1 from ebook_snapshot t2 where t1.id = t2.ebook_id and t2.`date` = curdate()); update ebook_snapshot t1, ebook t2 set t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.`date` = curdate() and t1.ebook_id = t2.id; update ebook_snapshot t1 left join (select ebook_id, view_count, vote_count from ebook_snapshot where `date` = date_sub(curdate(), interval 1 day)) t2 on t1.ebook_id = t2.ebook_id set t1.view_increase = (t1.view_count - ifnull(t2.view_count, 0)), t1.vote_increase = (t1.vote_count - ifnull(t2.vote_count, 0)) where t1.`date` = curdate();
+2024-12-07 23:00:00.039 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246370521976016896[0;39m ==> Parameters: 
+2024-12-07 23:00:00.055 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246370521976016896[0;39m <==    Updates: 0
+2024-12-07 23:00:00.062 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :35   [32m246370521976016896[0;39m 生成今日电子书快照结束，耗时：23毫秒
+2024-12-07 23:02:00.006 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246371025154084864[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:02:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246371025154084864[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:02:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246371025154084864[0;39m ==> Parameters: 
+2024-12-07 23:02:00.037 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246371025154084864[0;39m <==    Updates: 5
+2024-12-07 23:02:00.037 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246371025154084864[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 23:04:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246371528478953472[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:04:00.008 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246371528478953472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:04:00.008 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246371528478953472[0;39m ==> Parameters: 
+2024-12-07 23:04:00.042 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246371528478953472[0;39m <==    Updates: 5
+2024-12-07 23:04:00.042 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246371528478953472[0;39m 更新电子书下的文档数据结束，耗时：34毫秒
+2024-12-07 23:06:00.018 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246372031837376512[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:06:00.018 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246372031837376512[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:06:00.018 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246372031837376512[0;39m ==> Parameters: 
+2024-12-07 23:06:00.037 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246372031837376512[0;39m <==    Updates: 5
+2024-12-07 23:06:00.037 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246372031837376512[0;39m 更新电子书下的文档数据结束，耗时：19毫秒
+2024-12-07 23:08:00.021 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246372535166439424[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:08:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246372535166439424[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:08:00.023 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246372535166439424[0;39m ==> Parameters: 
+2024-12-07 23:08:00.053 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246372535166439424[0;39m <==    Updates: 5
+2024-12-07 23:08:00.053 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246372535166439424[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 23:10:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246373038428393472[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:10:00.008 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246373038428393472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:10:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246373038428393472[0;39m ==> Parameters: 
+2024-12-07 23:10:00.029 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246373038428393472[0;39m <==    Updates: 5
+2024-12-07 23:10:00.040 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246373038428393472[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 23:12:00.012 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246373541761650688[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:12:00.012 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246373541761650688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:12:00.012 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246373541761650688[0;39m ==> Parameters: 
+2024-12-07 23:12:00.043 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246373541761650688[0;39m <==    Updates: 5
+2024-12-07 23:12:00.043 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246373541761650688[0;39m 更新电子书下的文档数据结束，耗时：31毫秒
+2024-12-07 23:14:00.003 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246374045040381952[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:14:00.013 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246374045040381952[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:14:00.013 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246374045040381952[0;39m ==> Parameters: 
+2024-12-07 23:14:00.035 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246374045040381952[0;39m <==    Updates: 5
+2024-12-07 23:14:00.035 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246374045040381952[0;39m 更新电子书下的文档数据结束，耗时：32毫秒
+2024-12-07 23:16:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246374548377833472[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:16:00.011 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246374548377833472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:16:00.011 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246374548377833472[0;39m ==> Parameters: 
+2024-12-07 23:16:00.028 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246374548377833472[0;39m <==    Updates: 5
+2024-12-07 23:16:00.028 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246374548377833472[0;39m 更新电子书下的文档数据结束，耗时：20毫秒
+2024-12-07 23:18:00.017 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246375051732062208[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:18:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246375051732062208[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:18:00.019 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246375051732062208[0;39m ==> Parameters: 
+2024-12-07 23:18:00.052 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246375051732062208[0;39m <==    Updates: 5
+2024-12-07 23:18:00.052 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246375051732062208[0;39m 更新电子书下的文档数据结束，耗时：35毫秒
+2024-12-07 23:20:00.003 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :32   [32m246375554989821952[0;39m 生成今日电子书快照开始
+2024-12-07 23:20:00.003 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246375554989821952[0;39m ==>  Preparing: insert into ebook_snapshot(ebook_id, `date`, view_count, vote_count, view_increase, vote_increase) select t1.id, curdate(), 0, 0, 0, 0 from ebook t1 where not exists(select 1 from ebook_snapshot t2 where t1.id = t2.ebook_id and t2.`date` = curdate()); update ebook_snapshot t1, ebook t2 set t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.`date` = curdate() and t1.ebook_id = t2.id; update ebook_snapshot t1 left join (select ebook_id, view_count, vote_count from ebook_snapshot where `date` = date_sub(curdate(), interval 1 day)) t2 on t1.ebook_id = t2.ebook_id set t1.view_increase = (t1.view_count - ifnull(t2.view_count, 0)), t1.vote_increase = (t1.vote_count - ifnull(t2.vote_count, 0)) where t1.`date` = curdate();
+2024-12-07 23:20:00.014 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246375554989821952[0;39m ==> Parameters: 
+2024-12-07 23:20:00.040 DEBUG c.j.w.mapper.EbookSnapshotMapperCust.genSnapshot  :137  [32m246375554989821952[0;39m <==    Updates: 0
+2024-12-07 23:20:00.040 INFO  com.jiawa.wiki.job.EbookSnapshotJob               :35   [32m246375554989821952[0;39m 生成今日电子书快照结束，耗时：37毫秒
+2024-12-07 23:20:00.040 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246375555145011200[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:20:00.040 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246375555145011200[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:20:00.040 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246375555145011200[0;39m ==> Parameters: 
+2024-12-07 23:20:00.053 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246375555145011200[0;39m <==    Updates: 5
+2024-12-07 23:20:00.053 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246375555145011200[0;39m 更新电子书下的文档数据结束，耗时：13毫秒
+2024-12-07 23:22:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246376058327273472[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:22:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246376058327273472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:22:00.016 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246376058327273472[0;39m ==> Parameters: 
+2024-12-07 23:22:00.027 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246376058327273472[0;39m <==    Updates: 5
+2024-12-07 23:22:00.027 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246376058327273472[0;39m 更新电子书下的文档数据结束，耗时：19毫秒
+2024-12-07 23:24:00.008 INFO  com.jiawa.wiki.job.DocJob                         :30   [32m246376561643753472[0;39m 更新电子书下的文档数据开始
+2024-12-07 23:24:00.017 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246376561643753472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2024-12-07 23:24:00.017 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246376561643753472[0;39m ==> Parameters: 
+2024-12-07 23:24:00.031 DEBUG c.jiawa.wiki.mapper.DocMapperCust.updateEbookInfo :137  [32m246376561643753472[0;39m <==    Updates: 5
+2024-12-07 23:24:00.031 INFO  com.jiawa.wiki.job.DocJob                         :33   [32m246376561643753472[0;39m 更新电子书下的文档数据结束，耗时：23毫秒

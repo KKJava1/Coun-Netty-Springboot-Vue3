@@ -1,0 +1,44 @@
+2024-12-15 13:36:14.994 ERROR com.jiawa.wiki.task.QueueTaskConfig               :64   [32m                  [0;39m 队列监听线程出错
+org.redisson.RedissonShutdownException: Redisson is shutdown
+	at org.redisson.command.RedisExecutor.execute(RedisExecutor.java:129)
+	at org.redisson.command.CommandAsyncService.async(CommandAsyncService.java:622)
+	at org.redisson.command.CommandAsyncService.writeAsync(CommandAsyncService.java:578)
+	at org.redisson.RedissonBlockingQueue.pollAsync(RedissonBlockingQueue.java:97)
+	at org.redisson.RedissonBlockingQueue.poll(RedissonBlockingQueue.java:106)
+	at com.jiawa.wiki.task.QueueTaskConfig.lambda$queueTask$2(QueueTaskConfig.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-12-15 13:37:36.810 ERROR com.jiawa.wiki.task.QueueTaskConfig               :64   [32m                  [0;39m 队列监听线程出错
+org.redisson.RedissonShutdownException: Redisson is shutdown
+	at org.redisson.command.RedisExecutor.execute(RedisExecutor.java:129)
+	at org.redisson.command.CommandAsyncService.async(CommandAsyncService.java:622)
+	at org.redisson.command.CommandAsyncService.writeAsync(CommandAsyncService.java:578)
+	at org.redisson.RedissonBlockingQueue.pollAsync(RedissonBlockingQueue.java:97)
+	at org.redisson.RedissonBlockingQueue.poll(RedissonBlockingQueue.java:106)
+	at com.jiawa.wiki.task.QueueTaskConfig.lambda$queueTask$2(QueueTaskConfig.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-12-15 13:40:02.785 ERROR com.jiawa.wiki.task.QueueTaskConfig               :64   [32m                  [0;39m 队列监听线程出错
+org.redisson.RedissonShutdownException: Redisson is shutdown
+	at org.redisson.command.RedisExecutor.execute(RedisExecutor.java:129)
+	at org.redisson.command.CommandAsyncService.async(CommandAsyncService.java:622)
+	at org.redisson.command.CommandAsyncService.writeAsync(CommandAsyncService.java:578)
+	at org.redisson.RedissonBlockingQueue.pollAsync(RedissonBlockingQueue.java:97)
+	at org.redisson.RedissonBlockingQueue.poll(RedissonBlockingQueue.java:106)
+	at com.jiawa.wiki.task.QueueTaskConfig.lambda$queueTask$2(QueueTaskConfig.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-12-15 13:51:57.382 ERROR com.jiawa.wiki.task.QueueTaskConfig               :64   [32m                  [0;39m 队列监听线程出错
+org.redisson.RedissonShutdownException: Redisson is shutdown
+	at org.redisson.command.RedisExecutor.execute(RedisExecutor.java:129)
+	at org.redisson.command.CommandAsyncService.async(CommandAsyncService.java:622)
+	at org.redisson.command.CommandAsyncService.writeAsync(CommandAsyncService.java:578)
+	at org.redisson.RedissonBlockingQueue.pollAsync(RedissonBlockingQueue.java:97)
+	at org.redisson.RedissonBlockingQueue.poll(RedissonBlockingQueue.java:106)
+	at com.jiawa.wiki.task.QueueTaskConfig.lambda$queueTask$2(QueueTaskConfig.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
